@@ -1,3 +1,8 @@
+#include "stdafx.h"
+#include "ascImg.h"
+#include "ascText.h"
+#include "extImg.h"
+#include "extText.h"
 #include "meniu.h"
 
 using namespace System;
