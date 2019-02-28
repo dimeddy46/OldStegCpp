@@ -171,10 +171,10 @@ namespace Steg11 {
 			titluTxt->BackColor = System::Drawing::Color::Empty;
 			coverTxt->Text = "Selectie: " + System::IO::Path::GetFileName(openFileDialog1->FileName);
 			std::string fileName = marshal_as<std::string>(openFileDialog1->FileName);
+
 			// citire imagine pe 16 biti
 			cover = imread(fileName, -1);
-			coverIMG->ImageLocation = openFileDialog1->FileName;
-
+			coverIMG->ImageLocation = openFileDialog1->FileName;		
 			coverTxt->Text += "\n" + cover.cols + " x " + cover.rows;
 		}
 

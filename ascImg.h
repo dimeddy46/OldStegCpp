@@ -1,4 +1,5 @@
 #pragma once
+#define CV_IMWRITE_PNG_COMPRESSION 16
 
 namespace Steg11 {
 
@@ -343,7 +344,7 @@ namespace Steg11 {
 			try 
 			{
 				vector<int> compr;
-				compr.push_back(CV_IMWRITE_PNG_COMPRESSION);
+				compr.push_back(CV_IMWRITE_PNG_COMPRESSION); // #define CV_IMWRITE_PNG_COMPRESSION 16;
 				compr.push_back(9);
 				imwrite(outFile, rez, compr);
 			}
