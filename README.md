@@ -7,6 +7,6 @@ User interface written in C++/CLI also OpenCV in C++.
 <br>inside: .bmp .png <br><br>
 
 <b>To build:</b><br>
-OpenCV is required and can be downloaded from here:https://opencv.org/releases.html<br>
+OpenCV is required and can be downloaded from here: https://opencv.org/releases.html<br>
 Inside CMakeLists.txt, please specify the path to your OpenCV/build directory as OpenCV_DIR_HOME variable.
 
