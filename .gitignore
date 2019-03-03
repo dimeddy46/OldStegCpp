@@ -32,14 +32,15 @@
 *.app
 
 # Visual Studio & CodeBlocks
+.vs/
+build/
+Release/
+x64/
+obj/
 *.sln
 *.vcxproj
 *.filters
 *.user
-.vs/
-Release/
-x64/
-obj/
 *.layout
 *.depend
 *.cbp

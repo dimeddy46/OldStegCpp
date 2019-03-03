@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.13)
 project(Steg11)
 
 # ------------------ SET THIS PATH/TO/YOUR/OPENCV/BUILD FOLDER -------------------
-set(OpenCV_DIR_HOME "D:/Downloads/opencv/build")
+set(OpenCV_DIR_HOME "D:/opencv2313/opencv/build")
 # ------------------------------------------------------------------------------
 
 set(OpenCV_DIR "${OpenCV_DIR_HOME}/x64/vc14/lib")
